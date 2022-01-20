@@ -89,8 +89,8 @@ def main():
         words[i] = words[i].replace('\n', '')
 
     words = find_words(words, green=args.green, yellow=args.yellow, gray=args.gray)
-    print(words)
-    print(len(words))
+    print('List of words:', words)
+    print('Number of words:', len(words))
 
 if __name__ == '__main__':
     main()
