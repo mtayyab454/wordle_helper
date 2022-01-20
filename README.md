@@ -2,28 +2,22 @@
 
 This a small program which help solving the popular puzzle called wordle([Link](https://www.powerlanguage.co.uk/wordle/)). Program takes three optional inputs for each one of the colored clues. Here is an example of how it works. 
 
+##### Example
+
+Start with a random word. I started with "TANGO".
 <div align=center><img src="img/1.PNG" height = "30%" width = "30%"/></div>
-<div align=center><img src="img/2.PNG" height = "30%" width = "30%"/></div>
-
-### Model Compression
-
-Following commands can be used to reproduce the results presented in the paper. 
-
-##### 1. Resnet56
-
-| Flops         | Parameters      | Accuracy |
-|---------------|-----------------|----------|
-|89.80M(64.22%) | 0.32M(62.97%)   | 92.71%   | 
 
 ```shell
-python run_cifar.py \
---jobid resnet56_test \
---arch resnet56 \
---dataset cifar10 \
---compress_rate :[6,4,4,6,4,4,4,4,4,4,4,4,4,13,4,10,6,4,4,12,18,16,4,15,4,16,4,12,7,13,4,15,4,18,4,12,4,32,26,36,16,32,13,29,23,32,16,36,10,23,13,20,10,13,7] \
---l2_weight 0.001 \
---add_bn True \
---epochs 120 \
---schedule 30 60 90 \
---lr 0.01
+python main.py --yellow t1o5 --gray ang
+
+Output:
+['other', 'story', 'short', 'stood', 'wrote', 'mouth', 'south', 'store', 'forth', 'roots', 'cloth', 'worth', 'court', 'doubt', 'storm', 'stock', 'outer', 'costs', 'youth', 'motor', 'orbit', 'shoot', 'route', 'forty', 'hotel', 'boots', 'pilot', 'stove', 'spots', 'shout
+', 'worst', 'stops', 'moist', 'sport', 'shots', 'poets', 'sorts', 'posts', 'frost', 'hosts', 'ports', 'votes', 'voted', 'robot', 'stole', 'stool', 'moths', 'scout', 'stout', 'motel', 'bolts', 'lofty', 'quote', 'booth', 'forts', 'colts', 'otter', 'spout', 'smote', 'sto
+op', 'rotor', 'plots', 'pivot', 'comet', 'depot', 'boost', 'broth', 'slots', 'sloth', 'riots', 'volts', 'roost', 'hotly', 'idiot', 'booty', 'voter', 'bouts', 'hoist', 'molts', 'stork', 'covet', 'stomp', 'omits', 'extol', 'clout', 'froth', 'vomit', 'lotus', 'clots', 'b
+lots', 'hoots', 'optic', 'scoot', 'doted', 'jolts', 'dolts', 'stows', 'routs', 'joist', 'pouts', 'loots', 'soots', 'ousts', 'flout', 'dotes', 'lofts', 'overt', 'motif', 'quoth', 'forte', 'sooty', 'ethos', 'motes', 'opted', 'dotty', 'joust', 'motet', 'stoic', 'louts',
+'divot', 'stoke', 'croft', 'coots', 'moult', 'softy', 'potty', 'posit', 'octet', 'botch', 'estop', 'sooth', 'emote', 'owlet', 'roust', 'foist', 'coset', 'strop', 'obits', 'poset', 'doest', 'morts', 'dicot', 'didot', 'foots', 'wroth', 'rooty', 'softs', 'poste', 'mothy'
+, 'cotes', 'ioctl', 'zloty', 'mosts', 'stoup', 'oweth', 'quoit', 'couth', 'owest', 'fetor', 'picot', 'worts', 'doter', 'besot', 'doeth', 'moots']
+165
 ```
+Pick a word from the list. I picked "WROTE".
+<div align=center><img src="img/2.PNG" height = "30%" width = "30%"/></div> 
