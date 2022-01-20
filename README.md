@@ -2,8 +2,8 @@
 
 This a small program which help solving the popular puzzle called wordle([Link](https://www.powerlanguage.co.uk/wordle/)). Program takes three optional inputs for each one of the colored clues. Here is an example of how it works. 
 
-<div align=center><img src="img/1.PNG" height = "60%" width = "70%"/></div>
-<div align=center><img src="img/2.PNG" height = "60%" width = "70%"/></div>
+<div align=center><img src="img/1.PNG" height = "20%" width = "20%"/></div>
+<div align=center><img src="img/2.PNG" height = "20%" width = "20%"/></div>
 
 ### Model Compression
 
