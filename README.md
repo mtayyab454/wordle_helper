@@ -1,6 +1,6 @@
 # Wordle Helper.
 
-This a small program which help solving the popular puzzle called wordle([Link](https://www.powerlanguage.co.uk/wordle/)). Program takes three optional inputs for each one of the colored clues. Here is an example of how it works. 
+This is a small python program which help solving the popular puzzle called wordle([Link](https://www.powerlanguage.co.uk/wordle/)). Program takes three optional inputs for each one of the colored clues. For the green and the yellow clues enter the list of character (a to z) position (1 to 5) pairs (ie. 'a2b3'). And for the  Here is an example of how it works. 
 
 ##### Example
 
