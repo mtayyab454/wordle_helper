@@ -21,7 +21,7 @@ poste', 'mothy', 'cotes', 'ioctl', 'zloty', 'mosts', 'stoup', 'oweth', 'quoit', 
 Number of words: 165
 ```
 Next pick a word from the list. I picked "WROTE" as second guess.  
-<div align=center><img src="img/2.PNG" height = "30%" width = "30%"/></div> 
+<div align=center><img src="img/2.PNG" height = "20%" width = "20%"/></div> 
 
 Run the code again with additional clues included.
 ```shell
@@ -33,7 +33,7 @@ Number of words: 6
 ```
 
 Third guess is "COURT".
-<div align=center><img src="img/3.PNG" height = "30%" width = "30%"/></div>
+<div align=center><img src="img/3.PNG" height = "20%" width = "20%"/></div>
 
 Run the code again with additional clues included.
 ```shell
@@ -45,4 +45,4 @@ Number of words: 1
 ```
 
 Final guess is "ROBOT".
-<div align=center><img src="img/4.PNG" height = "30%" width = "30%"/></div>
+<div align=center><img src="img/4.PNG" height = "20%" width = "20%"/></div>
