@@ -5,7 +5,7 @@ This is a small python program which helps in solving the popular word puzzle ca
 ##### Example
 
 Start with a random guess. I started with "TANGO".  
-<div align=center><img src="img/1.PNG" height = "30%" width = "30%"/></div>
+<div align=center><img src="img/1.PNG" height = "20%" width = "20%"/></div>
 
 Based on the clues in first row run the function as follows.
 ```shell
