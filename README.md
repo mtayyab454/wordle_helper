@@ -36,5 +36,13 @@ Third guess is "COURT".
 <div align=center><img src="img/3.PNG" height = "30%" width = "30%"/></div>
 
 Run the code again with additional clues included.
+```shell
+>> python main.py --green o2t5 --yellow t1o5r2o3t4r3 --gray angwecu
 
+Output:
+List of words: ['robot']
+Number of words: 1
+```
+
+Final guess is "ROBOT".
 <div align=center><img src="img/4.PNG" height = "30%" width = "30%"/></div>
