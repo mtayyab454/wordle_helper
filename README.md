@@ -4,9 +4,9 @@ This is a small python program which helps in solving the popular word puzzle ca
 
 ##### Example
 
-Start with a random word. I started with "TANGO" and based on the clues in first row run the function as follows. 
+Start with a random word. I started with "TANGO".  
 <div align=center><img src="img/1.PNG" height = "30%" width = "30%"/></div>
-
+Based on the clues in first row run the function as follows.
 ```shell
 >> python main.py --yellow t1o5 --gray ang
 
