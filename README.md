@@ -4,7 +4,7 @@ This is a small python program which helps in solving the popular word puzzle ca
 
 ##### Example
 
-Start with a random word. I started with "TANGO".  
+Start with a random guess. I started with "TANGO".  
 <div align=center><img src="img/1.PNG" height = "30%" width = "30%"/></div>
 
 Based on the clues in first row run the function as follows.
@@ -20,9 +20,10 @@ oic', 'louts', 'divot', 'stoke', 'croft', 'coots', 'moult', 'softy', 'potty', 'p
 poste', 'mothy', 'cotes', 'ioctl', 'zloty', 'mosts', 'stoup', 'oweth', 'quoit', 'couth', 'owest', 'fetor', 'picot', 'worts', 'doter', 'besot', 'doeth', 'moots']
 Number of words: 165
 ```
-Next pick a word from the list. I picked "WROTE" and run the code again with additional clues included.  
+Next pick a word from the list. I picked "WROTE" as second guess.  
 <div align=center><img src="img/2.PNG" height = "30%" width = "30%"/></div> 
 
+Run the code again with additional clues included.
 ```shell
 >> python main.py --yellow t1o5r2o3t4 --gray angwe
 
@@ -30,8 +31,10 @@ Output:
 List of words: ['court', 'motor', 'robot', 'rotor', 'roust', 'strop']
 Number of words: 6
 ```
+
+Third guess is "COURT".
 <div align=center><img src="img/3.PNG" height = "30%" width = "30%"/></div>
 
-Next pick a word from the list. I picked "WROTE" and run the code again with additional clues included.
+Run the code again with additional clues included.
 
 <div align=center><img src="img/4.PNG" height = "30%" width = "30%"/></div>
