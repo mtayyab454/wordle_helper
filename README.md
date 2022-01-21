@@ -4,11 +4,11 @@ This is a small python program which helps in solving the popular word puzzle ca
 
 ##### Example
 
-Start with a random word. I started with "TANGO" and based on the first row run the function as follows. 
+Start with a random word. I started with "TANGO" and based on the clues in first row run the function as follows. 
 <div align=center><img src="img/1.PNG" height = "30%" width = "30%"/></div>
 
 ```shell
-python main.py --yellow t1o5 --gray ang
+>> python main.py --yellow t1o5 --gray ang
 
 Output:
 List of words: ['other', 'story', 'short', 'stood', 'wrote', 'mouth', 'south', 'store', 'forth', 'roots', 'cloth', 'worth', 'court', 'doubt', 'storm', 'stock', 'outer', 'costs', 'youth', 'motor', 'orbit', 'shoot', 'route', 'forty', 'hotel', 'boots', 'pilot', 'stove',
@@ -19,7 +19,18 @@ oic', 'louts', 'divot', 'stoke', 'croft', 'coots', 'moult', 'softy', 'potty', 'p
 poste', 'mothy', 'cotes', 'ioctl', 'zloty', 'mosts', 'stoup', 'oweth', 'quoit', 'couth', 'owest', 'fetor', 'picot', 'worts', 'doter', 'besot', 'doeth', 'moots']
 Number of words: 165
 ```
-Pick a word from the list. I picked "WROTE" and 
+Next pick a word from the list. I picked "WROTE" and run the code again with additional clues included.  
 <div align=center><img src="img/2.PNG" height = "30%" width = "30%"/></div> 
+
+```shell
+>> python main.py --yellow t1o5r2o3t4 --gray angwe
+
+Output:
+List of words: ['court', 'motor', 'robot', 'rotor', 'roust', 'strop']
+Number of words: 6
+```
 <div align=center><img src="img/3.PNG" height = "30%" width = "30%"/></div>
+
+Next pick a word from the list. I picked "WROTE" and run the code again with additional clues included.
+
 <div align=center><img src="img/4.PNG" height = "30%" width = "30%"/></div>
